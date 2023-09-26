@@ -1,6 +1,7 @@
 package com.healthscript;
 import java.util.Date;
 
+//TODO: excluir
 public class User {
     private int id;
     private String name;

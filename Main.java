@@ -10,8 +10,11 @@ public class Main {
 
         //aqui eu tenho que chamar o contrutor
         UserBean user = new UserBean("Maria", "Female", "22/08/2003", "maria@email.com", "topa", 2);
+        UserBean user2 = new UserBean("José", "Female", "22/08/2003", "maria@email.com", "topa", 2);
 
         //aqui passar a instancia para o DAO
         userDao.createUser(user);
+        userDao.createUser(user2);
+
     }
 }
